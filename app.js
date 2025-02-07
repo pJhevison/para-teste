@@ -11,7 +11,7 @@ public class MediaAluno {
         double media = (nota1 + nota2 + nota3) / 3;
 
         // Verifica se o aluno foi aprovado ou reprovado
-        String resultado = (media >= 7) ? "Aprovado!" : "Reprovado!";
+        String resultado = (media >= 8) ? "Aprovado!" : "Reprovado!";
         
         // Exibe a média e o resultado
         JOptionPane.showMessageDialog(null, "Média: " + media + "\n" + resultado);
